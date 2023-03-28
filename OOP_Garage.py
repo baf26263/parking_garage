@@ -14,7 +14,7 @@ class Garage():
         if payment != '':
             print('Thank you for your payment! You have 15 minutes to leave the garage or an additional payment will be needed to leave.')
             self.tickets_available += 1
-            self.current_ticket['paid'] = True
+            self.currentTicket['paid'] = True
     
     def leaveGarage(self):
         payment = print('Please make a payment to leave.')
